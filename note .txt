@@ -1,0 +1,4 @@
+- docker image seperti installernya
+
+- docker container itu bagian kecil dari docker image. dpcker image tdk bisa dihapus jk ada container
+
