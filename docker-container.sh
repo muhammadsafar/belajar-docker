@@ -10,3 +10,5 @@ docker container start contohredis
 docker container stop contohredis
 
 docker container rm contohredis
+
+docker run -d -p 27017:27017 --name test-mongo mongo:latest 
