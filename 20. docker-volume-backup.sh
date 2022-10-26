@@ -49,11 +49,10 @@ docker container start mysqlvol
 
 => cara dua dengan docker run
 
-docker image pull ubuntu:latest
+docker image pull ubuntu:latest, dipakai ubuntu agar yg bisa untuk sekali running
 
 docker container stop mysqlvol
 
 docker container run --rm --name ubuntubackup --mount "type=bind,source=/e/Bismillah/mygit/udemy/docker/backup,destination=/backup" -v mysqldata:/data ubuntu:latest bash -c "cd /backup && tar cvf /backup/backup-lagi.tar.gz /data" 
-
 
 
